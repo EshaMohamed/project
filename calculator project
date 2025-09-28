@@ -17,7 +17,7 @@ def div(a,b):
         return ("error division by  zero  ")
     c=a/b
     return c
-#create awhile lopp
+#create awhile loop
 
 while True:
     print("=====claculator Menu=====")
