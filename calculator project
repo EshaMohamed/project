@@ -17,6 +17,7 @@ def div(a,b):
         return ("error division by  zero  ")
     c=a/b
     return c
+#create awhile lopp
 
 while True:
     print("=====claculator Menu=====")
@@ -33,6 +34,8 @@ while True:
 
     x=int(input("enter the number is :"))
     y=int(input("enter the number is :"))
+
+#if and elif statement
 
     if choice=='1':
         print("after adding two number is :",add(x,y))
