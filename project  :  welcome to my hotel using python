@@ -1,0 +1,49 @@
+print("welcome to my hotel")
+print("menu")
+print("1.dosa            -30 rs")
+print("2.idly            -10 rs")
+print("3.parotta         -10 rs")
+print("4.ideyappam       -15 rs")
+print("5.poori           -25 rs")
+
+total=0
+
+
+while True:
+    choice=int (input("enter the number is one to five food:"))
+
+    match choice:
+
+        case 1:
+            quantity=int(input("enter the  quantity:"))
+            total+= quantity *30
+            print(f"Added {quantity} dosa(s).bill =rs {total}")
+            print("please take your order")
+        case 2:
+            quantity=int(input("enter the  quantity:"))
+            total+= quantity *10
+            print(f"Added {quantity} idly(s).bill =rs {total}")
+            print("please take your order")
+        case 3:
+            quantity=int(input("enter the  quantity:"))
+            total+= quantity *10
+            print(f"Added {quantity} parotta(s).bill =rs {total}")
+            print("please take your order")
+        case 4:
+            quantity=int(input("enter the  quantity"))
+            total+= quantity *15
+            print(f"Added {quantity} ideyappam(s).bill =rs {total}")
+            print("please take your order")
+        case 4:
+            quantity=int(input("enter the  quantity"))
+            total+= quantity *25
+            print(f"Added {quantity} poori(s).bill =rs {total}")
+            print("please take your order")
+        case 5:
+            print("\n finally :bill=rs{total}")
+            print("thankyou sir ! visit next time")
+            print("please take your order")
+            break
+        case _ :
+            print("invalid food so pls try again")
+
